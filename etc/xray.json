@@ -23,7 +23,7 @@
         },
         {
             "port": 4324,"listen": "127.0.0.1","protocol": "shadowsocks",
-            "settings": {"method": "$ParameterSSENCYPT","password": "$AUUID"},
+            "settings": {"method": "$SSENCYPT","password": "$AUUID"},
             "streamSettings": {"security": "none","network": "domainsocket","dsSettings": {"path": "apath","abstract": true}}
         },
         {   "port": 5234,"listen": "127.0.0.1","protocol": "socks",
