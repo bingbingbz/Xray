@@ -9,5 +9,5 @@ RUN apk update && \
 
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
-EXPOSE 9050
+EXPOSE 2019
 CMD /start.sh
