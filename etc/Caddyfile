@@ -1,4 +1,4 @@
-http://$DOMAIN:$PORT
+https://$DOMAIN:$PORT
 root * /usr/share/caddy
 file_server browse
 
