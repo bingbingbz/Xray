@@ -30,6 +30,10 @@
         "FILES": {
             "description": "自定义网络地址读取存储文件列表",
             "value": "https://raw.githubusercontent.com/bingbingbz/Xray/main/etc/StoreFiles"
+        },
+        "PORT": {
+            "description": "端口",
+            "value": "8080"
         }
     },
     "website": "https://github.com/Mzallng366/HerokuXray",
