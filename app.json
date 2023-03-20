@@ -15,14 +15,6 @@
             "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/Lbingyi/HerokuXray/blob/master/etc/CADDYIndexPage.md",
             "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
         },
-        "CONFIGCADDY": {
-            "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/bingbingbz/Xray/main/etc/Caddyfile"
-        },
-        "CONFIGXRAY": {
-            "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/bingbingbz/Xray/main/etc/xray.json"
-        },
         "SSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
             "value": "chacha20-ietf-poly1305"
