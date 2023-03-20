@@ -19,6 +19,5 @@ tor &
 
 /xray -config /xray.json &
 
-pwd
-ls -ltr
+ls -ltr /etc/
 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
