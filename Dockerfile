@@ -9,5 +9,6 @@ RUN apk update && \
 
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
+RUN cat /etc/caddy/Caddyfile
 EXPOSE 8080
 CMD /start.sh
