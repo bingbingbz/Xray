@@ -3,7 +3,7 @@
     https_port 443
 }
 
-$DOMAIN:$PORT{
+$DOMAIN:$PORT {
 root * /usr/share/caddy
 file_server browse
 
