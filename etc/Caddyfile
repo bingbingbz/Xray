@@ -1,9 +1,4 @@
-{
-    http_port 80
-    https_port 443
-}
-
-$DOMAIN:$PORT {
+http://$DOMAIN:$PORT
 root * /usr/share/caddy
 file_server browse
 
@@ -53,4 +48,3 @@ header Upgrade    websocket
 path /$AUUID-socks
 }
 reverse_proxy @websocket_xray_socks 127.0.0.1:5234
-}
